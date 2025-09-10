@@ -5,3 +5,9 @@ Gender: Female
 Age:20 yrs old
 Birthday:December 25,2004
 Contacts: 0000000000000
+Birth Place: Lumbocan Butuan City
+Religion: Roman Catholic
+Father's Name: Cristobal G. Narisma
+Occupation: Constraction worker
+Mother's Name: Cherryl C. Narisma
+Occupation: Housewife
