@@ -2,4 +2,6 @@ Elementary School: Lumbocan Elementary School
 Year Graduate: 2016-2017
 High School:Lumbocan National High School
 Year Graduate: 2021-2022
-
+College: Caraga State University, Cabadbaran Campus
+Program: Bachelor of Science in Information Technology
+Year Level: 3rd year
