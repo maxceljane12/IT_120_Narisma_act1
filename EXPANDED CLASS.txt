@@ -1,0 +1,59 @@
+import 'package:flutter/material.dart';
+
+void main() {
+  return runApp(
+    MaterialApp(
+      home: Scaffold(
+        backgroundColor: Colors.green,
+        appBar: AppBar(
+          centerTitle: true,
+          title: const Text(
+            'GeeksforGeeks',
+            style: TextStyle(
+              color: Colors.green,
+            ), // Text Style
+          ), // Text
+          backgroundColor: Colors.white,
+        ), // AppBar
+        body: const DicePage(),
+      ), // Scaffold
+    ), // Material App
+  );
+}
+
+class DicePage extends StatefulWidget {
+  const DicePage({Key? key}) : super(key: key);
+
+  @override
+  _DicePageState createState() => _DicePageState();
+}
+
+class _DicePageState extends State<DicePage> {
+  @override
+  Widget build(BuildContext context) {
+    return Center(
+      child: Row(
+        children: <Widget>[
+          // For image 1.
+          Expanded(
+            flex: 2,
+            child: Container(
+              color: Colors.green,
+              padding: const EdgeInsets.all(14),
+              child: Image.asset('assets/images/pic.jpg'),
+            ),
+          ),
+          // For image 2.
+          Expanded(
+            child: Container(
+              color: Colors.green,
+              padding: const EdgeInsets.all(14),
+              child: Image.asset('assets/images/pic2.jpg'),
+            ),
+          ), // Expanded
+        ], // <Widget>
+      ), // Row
+    ); // Center
+  }
+}
+Write to Maxcel Jane C. Narisma
